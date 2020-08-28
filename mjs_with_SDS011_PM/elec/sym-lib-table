@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mjs_with_SDS011_PM-cache)(type Legacy)(uri ${KIPRJMOD}/mjs_with_SDS011_PM-cache.lib)(options "")(descr ""))
+)
