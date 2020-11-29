@@ -24,8 +24,8 @@ echo HIER=$HIER IK=$IK PDDC=$PDDC RUW=$RUW LOG=$LOG
 . ./meetjestad_test.env
 
 
-# fetch the last 400 measurements from homeio4:
-wget -O$RUW -o$LOG 'http://demmer.xs4all.nl:86/se_th/se_th.php?header&number=12'   # every 5 minutes = 1 hour history
+# fetch the last 400 measurements: from balcon:
+wget -O$RUW -o$LOG "http://$URL:$PORT/$PATH/$SCRIPT.php?$PARAM1&$PARAM2"   # every 5 minutes = 1 hour history
 [ ! -r $RUW ] && {
     echo "wget mislukt; abort"
         exit 1
