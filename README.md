@@ -1,2 +1,2 @@
 # MeetJeStad
-Contributions to meetjestad.nl citizens project, Amersfoort, NL
+Contributions to meetjestad.nl Citizens Science initiative, Amersfoort, NL
